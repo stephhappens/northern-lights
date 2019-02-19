@@ -1,5 +1,4 @@
 // Fonts
-
 @font-face {
   font-family: 'Oswald';
   font-style: normal;
@@ -15,10 +14,19 @@
 }
 
 // Variables
-$baseFont: 'Oswald';
 $accentFont: 'Staatliches';
+$baseFont: 'Oswald';
+
+// Colors
+$black: #25262B;
+$blue: #596D77;
+$darkGreen: #242925;
+$lightPink: #CCC0C9;
+$pink: #B18592;
+$purple: #4C3741;
+$white: #FFF;
 
 // Imports
-
-@import 'reset.scss';
+@import 'global';
+@import 'reset';
 @import './components/nav';
