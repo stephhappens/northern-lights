@@ -1,0 +1,16 @@
+{
+  "name": "northern-lights",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "author": "Stephanie Winn <stephanie.n.winn@gmail.com>",
+  "scripts": {
+    "dev": "parcel public/index.html --port 3000 --open",
+    "build": "parcel build public/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0",
+    "sass": "^1.17.0"
+  }
+}
