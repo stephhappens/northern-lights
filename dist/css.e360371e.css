@@ -66,8 +66,6 @@ table {
   border-spacing: 0;
 }
 
-h1 {
-  color: #FFF;
-  font-family: "Staatliches";
-  font-size: 50px;
+.nav {
+  background: green;
 }
