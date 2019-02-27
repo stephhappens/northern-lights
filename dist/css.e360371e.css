@@ -69,3 +69,19 @@ table {
 .nav {
   background: green;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .nav {
+    background: yellow;
+  }
+}
+@media (min-width: 1024px) {
+  .nav {
+    background: pink;
+  }
+}
+@media (min-width: 1440px) {
+  .nav {
+    background: blue;
+  }
+}

@@ -26,7 +26,11 @@ $pink: #B18592;
 $purple: #4C3741;
 $white: #FFF;
 
+// Mixins
+@import './mixins/media-queries';
+
 // Imports
 @import 'global';
 @import 'reset';
 @import './components/nav';
+

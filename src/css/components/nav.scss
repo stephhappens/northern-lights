@@ -1,3 +1,21 @@
 .nav {
   background: green;
 }
+
+@include tablet {
+  .nav {
+    background: yellow;
+  }
+}
+
+@include desktop-small {
+  .nav {
+    background: pink;
+  }
+}
+
+@include desktop-large {
+  .nav {
+    background: blue;
+  }
+}
